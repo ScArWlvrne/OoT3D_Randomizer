@@ -1724,6 +1724,7 @@ typedef enum {
     JUNK75,
     JUNK76,
     JUNK77,
+    JUNK78,
 
     BRIDGE_OPEN_HINT,
     BRIDGE_VANILLA_HINT,

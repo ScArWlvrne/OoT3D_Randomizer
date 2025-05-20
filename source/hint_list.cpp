@@ -1611,6 +1611,11 @@ void HintTable_Init() {
                      Text{"BOK? No way.", /*french*/"BD'accord? Hors de question.", /*spanish*/"¿BVale? Ni hablar.", /*italian*/"BVa bene? Non ci penso nemmeno.", /*german*/"BOK? Niemals!"},
     });
 
+    hintTable[JUNK78] = HintText::Junk({
+                     // obscure text
+                     Text{"They say Grandma Martha was the greatest Ocarina of Time player of all.", /*french*/ "NEEDS TRANSLATION", /*spanish*/"Según dicen, Abuelita Martha fue la mejor jugadora de Ocarina del Tiempo de todos los tiempos.", /*italian*/ "NEEDS TRANSLATION", /*german*/ "NEEDS TRANSLATION"},
+    })
+
     /*--------------------------
     |     DUNGEON HINT TEXT    |
     ---------------------------*/
