@@ -167,7 +167,7 @@ s32 Settings_IsIsgEnabled(void) {
 }
 
 s32 Settings_IsLogicVanilla(void) {
-    return (s32)gSettingsContext.logic == LOGIC_VANILLA;
+    return (s32)true;
 }
 
 const char hashIconNames[32][25] = {
